@@ -1,0 +1,16 @@
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Prova.Application.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Prova.Application.pdb
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\AutoMapper.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Domain.Prova.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Prova.Data.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\EntityFramework.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Domain.Prova.pdb
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Prova.Data.pdb
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Prova.Data.dll.config
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\AutoMapper.xml
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\EntityFramework.xml
+C:\Users\Igor\Desktop\Prova\Prova.Application\obj\Debug\Prova.Application.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Desktop\Prova\Prova.Application\obj\Debug\Prova.Application.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\obj\Debug\Prova.Application.pdb
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Dapper.dll
+C:\Users\Igor\Desktop\Prova\Prova.Application\bin\Debug\Dapper.xml

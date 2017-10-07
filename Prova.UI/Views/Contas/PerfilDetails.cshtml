@@ -1,0 +1,51 @@
+﻿@model Prova.Application.ViewModels.PerfilViewModel
+
+
+<div id="replacetarget">
+    @Html.Partial("_PublicacoesList", Model.Publicacoes)
+    @Html.Partial("_ComentariosList", Model.Comentarios)
+</div>
+
+<div class="form-group">
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+</div>
+
+
+<script type="text/javascript">
+
+
+        $(function () {
+            $.ajaxSetup({ cache: false });
+
+            $("a[data-modal]").on("click", function (e) {
+                $('#myModalContent').load(this.href, function () {
+                    $('#myModal').modal({
+                        /*backdrop: 'static',*/
+                        keyboard: true
+                    }, 'show');
+                    bindForm(this);
+                });
+                return false;
+            });
+        });
+
+        function bindForm(dialog) {
+            $('form', dialog).submit(function () {
+                $.ajax({
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        if (result.success) {
+                            $('#myModal').modal('hide');
+                            $('#replacetarget').load(result.url); // Carrega o resultado HTML para a div demarcada
+                        } else {
+                            $('#myModalContent').html(result);
+                            bindForm(dialog);
+                        }
+                    }
+                });
+                return false;
+            });
+        }
+</script>

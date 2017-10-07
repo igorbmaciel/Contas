@@ -1,0 +1,49 @@
+﻿@model Prova.Application.ViewModels.ContaViewModel
+
+@{
+    ViewBag.Title = "Detalhes da Conta";
+}
+
+<h2>@ViewBag.Title </h2>
+
+<div class="container">
+    <div class="row">
+        <div class="">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">@Model.NomeUsuario</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+
+                        <div class=" col-md-9 col-lg-9 ">
+                            <table class="table table-user-information">
+                                <tbody>
+                                    <tr>
+                                        <td>Nome do Usuario:</td>
+                                        <td>@Model.NomeUsuario</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Senha do Usuario</td>
+                                        <td>@Model.Senha</td>
+                                    </tr>
+                                    <tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <a href="@Url.Action("Edit", "Contas", new {id = Model.Id})" data-modal="" class="btn btn-primary">
+                        <span title="Editar" class="glyphicon glyphicon-pencil"></span>
+                    </a>
+                    <a href="@Url.Action("Delete", "Contas", new { id = Model.Id })" data-modal="" class="btn btn-danger">
+                        <span title="Excluir" class="glyphicon glyphicon-trash"></span>
+                    </a>
+                    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

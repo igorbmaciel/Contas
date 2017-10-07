@@ -1,0 +1,9 @@
+C:\Users\Administrador\Downloads\Prova\Domain.Prova\bin\Debug\Domain.Prova.dll
+C:\Users\Administrador\Downloads\Prova\Domain.Prova\bin\Debug\Domain.Prova.pdb
+C:\Users\Administrador\Downloads\Prova\Domain.Prova\obj\Debug\Domain.Prova.dll
+C:\Users\Administrador\Downloads\Prova\Domain.Prova\obj\Debug\Domain.Prova.pdb
+C:\Users\Igor\Desktop\Prova\Domain.Prova\bin\Debug\Domain.Prova.dll
+C:\Users\Igor\Desktop\Prova\Domain.Prova\bin\Debug\Domain.Prova.pdb
+C:\Users\Igor\Desktop\Prova\Domain.Prova\obj\Debug\Domain.Prova.dll
+C:\Users\Igor\Desktop\Prova\Domain.Prova\obj\Debug\Domain.Prova.pdb
+C:\Users\Igor\Desktop\Prova\Domain.Prova\obj\Debug\Domain.Prova.csprojResolveAssemblyReference.cache
